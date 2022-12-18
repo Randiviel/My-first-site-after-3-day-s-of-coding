@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  font-family: Poppins, sans-serif;
+  background-image: linear-gradient(#d1353140,#00000040), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  color: #f5f6f7;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+input, label, .select {
+  margin: 0px 12px 15px;
+  width:95%;
+  min-height: 2em;
+  border-radius: 4px;
+}
+
+.inline {
+  width: 20px;
+  vertical-align: middle;
+  margin: 0px 10px
+}
+
+.recommend {
+  font-style: unset;
+  text-shadow: unset;
+  text-align: unset;
+  margin: 7px 10px;
+  font-size: 19px
+}
+
+.submit {
+  width: 95%;
+  height: 50px;
+  min-width: 300px;
+  display: block;
+  margin: 8px 12px;
+  border-color: #11ad3e;
+  background-color: #11ad3e;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.form {
+  background-color: rgba(15, 0, 7, 0.6);
+  margin: auto;
+  width: 25%;
+  min-width: 600px;
+  height: 900px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.radioinline {
+  display: inline-block;
+  margin: unset;
+}
+
+.names {
+  display: block;
+  margin-top: 20px
+}
+
+.textarea {
+  min-width: 25%;
+  min-height: 15%;
+  display: block;
+  margin-left: 2%;
+  width: 95%;
+  margin-bottom: 40px
+}
