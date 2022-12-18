@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<title="Survey">
+<html lang="en">
+<main>
+    <link rel="stylesheet" href="styles.css">
+  <body> 
+<h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+       <form id="survey-form" class="form">
+<div class="names"></div>  
+<label id="name-label" class="namel">
+Name <input id="name" placeholder="Enter Your Name" required></input>
+</label>
+  
+  <label id="email-label">
+Email <input id="email" placeholder="Enter Your Email" required type="email"></input>
+</label>
+  
+  <label id="number-label">
+Age (Optional)<input id="number" placeholder="Enter Your Age" required type="number" min="13" max="120"></input>
+</label>
+
+<label class="select">Meow</label>
+<select class="select" id="dropdown">
+  <option>Choose one</option>
+  <option id="1">Meow</option>
+  <option id="2">Meow</option>
+  <option id="3">Meow</option>
+  <option id="4">Meow</option>
+ </select>
+
+  <p class="recommend">Would you recommend freeCodeCamp to a friend?</p>
+
+<label class="radioinline">
+    <input type="radio" name="reccomend" class="inline" value="Definietly" requiered> Definitely</label>
+
+<label class="radioinline">    
+    <input type="radio" name="reccomend" class="inline" value="Maybe"requiered> 
+    Maybe</label>
+
+<label class="radioinline">    
+    <input type="radio" name="reccomend" class="inline" value="not sure" requiered> 
+    Not sure</label>
+<p class="recommend">What do you choose?</p>
+<label class="radioinline">
+<input type="checkbox" class="inline" value="Money"> Money</label>
+<label class="radioinline">
+<input type="checkbox"class="inline" value="Fame"> Fame</label>
+<label class="radioinline">
+<input type="checkbox"class="inline" value="Car"> Car</label>
+<label class="radioinline">
+<input type="checkbox"class="inline" value="car"> Infinite IQ</label>
+
+ <p class="recommend">Do you like elephants?</p>
+
+<textarea class="textarea" placeholder="Please say yes."></textarea>
+
+<input class="submit" type="submit" value="Submit" id="submit">
+      </form>
+    </body>
+  </main>
+</html>
